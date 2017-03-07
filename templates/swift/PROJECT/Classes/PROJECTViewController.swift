@@ -10,7 +10,7 @@ import UIKit
 
 public class PROJECTViewController: UIViewController {
     
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         
         //do stuff
