@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import PROJECT
+import Pods_PROJECT_Example
 
 class Tests: XCTestCase {
     
