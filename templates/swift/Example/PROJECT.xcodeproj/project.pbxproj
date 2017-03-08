@@ -410,6 +410,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.socialsuperstore.PROJECT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_DIR = "${SRCROOT}/../../";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -425,6 +426,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.socialsuperstore.PROJECT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_DIR = "${SRCROOT}/../../";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
