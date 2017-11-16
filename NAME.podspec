@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(SRCROOT)/../../Carthage/Build/iOS', 'PROJECT_DIR' => '${SRCROOT}/../../' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/../Carthage/Build/iOS $(SRCROOT)/../frameworks' }
 
   s.source_files = '${POD_NAME}/Classes/**/*'
 
